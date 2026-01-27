@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JEE Study Material Portal</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+    }
+
+    header {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      width: 300px;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card h2 {
+      text-align: center;
+      color: #2a5298;
+    }
+
+    .card ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .card ul li {
+      background: #eef2f8;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .card ul li:hover {
+      background: #dce6f7;
+    }
+
+    footer {
+      background: #1e3c72;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>JEE Study Material Portal</h1>
+    <p>Access All JEE Materials Subject-Wise</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Physics -->
+    <div class="card">
+      <h2>Physics</h2>
+      <ul>
+        <li>Mechanics</li>
+        <li>Electrodynamics</li>
+        <li>Optics</li>
+        <li>Modern Physics</li>
+        <li>PYQs</li>
+      </ul>
+    </div>
+
+    <!-- Chemistry -->
+    <div class="card">
+      <h2>Chemistry</h2>
+      <ul>
+        <li>Physical Chemistry</li>
+        <li>Organic Chemistry</li>
+        <li>Inorganic Chemistry</li>
+        <li>Named Reactions</li>
+        <li>NCERT Notes</li>
+      </ul>
+    </div>
+
+    <!-- Mathematics -->
+    <div class="card">
+      <h2>Mathematics</h2>
+      <ul>
+        <li>Algebra</li>
+        <li>Calculus</li>
+        <li>Coordinate Geometry</li>
+        <li>Trigonometry</li>
+        <li>PYQs</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 JEE Preparation Portal | Study Smart
+  </footer>
+
+</body>
+</html>
